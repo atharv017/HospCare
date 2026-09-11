@@ -1,0 +1,523 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="icon" href="./assets/logo.png" sizes="32x32">
+    <title>HospCare</title>
+    <link rel="stylesheet" href="./style/style.css">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.8/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-sRIl4kxILFvY47J16cr9ZwB07vP4J8+LH7qKQnuqkuIAvNWLzeN8tE5YBujZqJLB" crossorigin="anonymous">
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.8/dist/js/bootstrap.bundle.min.js"
+        integrity="sha384-FKyoEForCGlyvwx9Hj09JcYn3nv7wiPVlz7YYwJrWVcXK/BmnVDxM+D2scQbITxI"
+        crossorigin="anonymous"></script>
+
+</head>
+
+<body>
+
+    <!-- navbar -->
+    <div class="container-fluid na">
+        <nav class="navbar navbar-expand-lg">
+            <div class="navbar-brand">
+                <a href="#" class="nav-link px-2">
+                    <img src="./assets/logo.png" width="40px" alt="Logo">
+                    <span class="fw-bold fs-4 txcol">HospCare</span>
+                </a>
+            </div>
+            <button type="button" class="navbar-toggler" data-bs-toggle="collapse" data-bs-target="#navList"
+                aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse" id="navList">
+                <ul class="navbar-nav ms-auto text-center">
+                    <li class="nav-item"><a href="#" class="nav-link">Home</a></li>
+                    <li class="nav-item"><a href="abouut.html" class="nav-link">About Us</a></li>
+                    <li class="nav-item"><a href="contactus.html" class="nav-link">Contact Us</a></li>
+                    <li class="nav-item"><a href="bookappoiment.html" class="btn btn-outline-info">Book Appoiment<svg
+                                width="30px" height="20px" viewBox="0 0 24 24" fill="none"
+                                xmlns="http://www.w3.org/2000/svg">
+                                <path
+                                    d="M3.33789 7C5.06694 4.01099 8.29866 2 12.0001 2C17.5229 2 22.0001 6.47715 22.0001 12C22.0001 17.5228 17.5229 22 12.0001 22C8.29866 22 5.06694 19.989 3.33789 17M12 16L16 12M16 12L12 8M16 12H2"
+                                    stroke="currentColor" stroke-width="2" stroke-linecap="round"
+                                    stroke-linejoin="round" />
+                            </svg></a></li>
+
+                </ul>
+            </div>
+        </nav>
+    </div>
+
+    <div class="emergency">
+        <a href="" class="btn">Emergency</a>
+    </div>
+
+    <!-- first section of webpage -->
+    <section class="hero p-3">
+        <div class="container row hero-slog">
+            <div class="col-md-6 text-start fw-bold p-3 txcol">
+                <h1 class="fw-bold">Get Better Care For <br>Your Health</h1>
+                <p class="lead">Lorem ipsum dolor sit amet consectetur adipisicing elit. Placeat repellendus eveniet hic
+                    cum ullam cupiditate. Lorem ipsum dolor sit amet, consectetur adipisicing elit. Esse, provident.</p>
+                <a type="button" class="btn btn-info" href="#need">Explore<svg width="30px" height="20px"
+                        viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg">
+                        <path
+                            d="M3.33789 7C5.06694 4.01099 8.29866 2 12.0001 2C17.5229 2 22.0001 6.47715 22.0001 12C22.0001 17.5228 17.5229 22 12.0001 22C8.29866 22 5.06694 19.989 3.33789 17M12 16L16 12M16 12L12 8M16 12H2"
+                            stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" />
+                    </svg></a>
+            </div>
+            <div class="col-md-6 p-5 ">
+                <div id="carouselExample" class="carousel slide" data-bs-ride="carousel">
+                    <div class="carousel-inner">
+                        <div class="carousel-item active">
+                            <div class="text-center d-flex flex-column align-items-center ">
+                                <img src="assets/froz-hosp.png" class="d-block w-10 stet" alt="...">
+                                <p class="lead">Lorem ipsum dolor sit amet consectetur adipisicing elit. Laboriosam,
+                                    voluptates.</p>
+
+                            </div>
+                        </div>
+                        <div class="carousel-item">
+                            <div class="text-center d-flex flex-column align-items-center ">
+                                <img src="assets/sel-hospi.png" class="d-block w-10 stet" alt="...">
+                                <p class="lead">Lorem ipsum dolor sit amet consectetur adipisicing elit. Laboriosam,
+                                    voluptates.</p>
+
+                            </div>
+                        </div>
+                        <div class="carousel-item">
+                            <div class="text-center d-flex flex-column align-items-center ">
+                                <img src="assets/freq-hosi.png" class="d-block w-10 stet" alt="...">
+                                <p class="lead">Lorem ipsum dolor sit amet consectetur adipisicing elit. Laboriosam,
+                                    voluptates.</p>
+
+                            </div>
+                        </div>
+                    </div>
+                    <button class="carousel-control-prev" type="button" data-bs-target="#carouselExample"
+                        data-bs-slide="prev">
+                        <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                        <span class="visually-hidden">Previous</span>
+                    </button>
+                    <button class="carousel-control-next" type="button" data-bs-target="#carouselExample"
+                        data-bs-slide="next">
+                        <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                        <span class="visually-hidden">Next</span>
+                    </button>
+                </div>
+            </div>
+        </div>
+
+        <div class="container p-1 mt-4">
+            <div class="row text-start">
+                <div class="col-12 col-md-4 col-lg-2 mb-2">
+                    <div class="border shadow p-2 rounded-4 card">
+                        <h6 class="text-warning">01</h6>
+                        <h5 class="txcol">Find <br> Doctor</h5>
+                        <p class="p">Search doctors by name,specility & location</p>
+                        <h6 class="txcol">Search doctor</h6>
+                    </div>
+                </div>
+                <div class="col-12 col-md-4 col-lg-2 mb-2">
+                    <div class="border shadow p-2 rounded-4 card">
+                        <h6 class="text-warning">02</h6>
+                        <h5 class="txcol">Book <br> Appoiment</h5>
+                        <p class="p">Start an appoiment request for hospital care.</p>
+                        <h6 class="txcol">Book now</h6>
+                    </div>
+                </div>
+                <div class="col-12 col-md-4 col-lg-2 mb-2">
+                    <div class="border shadow p-2 rounded-4 card">
+                        <h6 class="text-warning">03</h6>
+                        <h5 class="txcol">Department</h5>
+                        <p class="p">Explore super specialities,board specialities,auxilary services and diagnostic</p>
+                        <h6 class="txcol">View department</h6>
+                    </div>
+                </div>
+                <div class="col-12 col-md-4 col-lg-2 mb-2">
+                    <div class="border shadow p-2 rounded-4 card">
+                        <h6 class="text-warning">04</h6>
+                        <h5 class="txcol">Health <br> cheack</h5>
+                        <p class="p">Connect with the health cheack center. </p>
+                        <h6 class="txcol">Explore cheaks</h6>
+                    </div>
+                </div>
+                <div class="col-12 col-md-4 col-lg-2 mb-2">
+                    <div class="border shadow p-2 rounded-4 card">
+                        <h6 class="text-warning">05</h6>
+                        <h5 class="txcol">International patients</h5>
+                        <p class="p">World-class medical treatment with personalised care. </p>
+                        <h6 class="txcol">Plan your visit</h6>
+                    </div>
+                </div>
+                <div class="col-12 col-md-4 col-lg-2 mb-2">
+                    <div class="border shadow p-2 rounded-4 card">
+                        <h6 class="text-warning">06</h6>
+                        <h5 class="text-danger">Emergency <br> care</h5>
+                        <p class="p">Reach emergency contact actions quickly.</p>
+                        <h6 class="text-danger">Call emergency</h6>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+
+    <!-- section second of webpage -->
+
+    <section class="section-need txcol" id="need">
+        <div class="need-head text-center ">
+            <span class="reveal-text">
+                <svg width="20px" height="20px" viewBox="0 0 15 15" fill="#0c436b" version="1.1" id="heart"
+                    xmlns="http://www.w3.org/2000/svg">
+                    <path
+                        d="M13.91,6.75c-1.17,2.25-4.3,5.31-6.07,6.94c-0.1903,0.1718-0.4797,0.1718-0.67,0C5.39,12.06,2.26,9,1.09,6.75&#xA;&#x9;C-1.48,1.8,5-1.5,7.5,3.45C10-1.5,16.48,1.8,13.91,6.75z" />
+                </svg>
+                HERE WHEN YOU NEED US
+            </span>
+            <h1 class="fw-bold reveal-text">Why choose Hospital for your health</h1>
+        </div>
+        <div class="row text-center mb-4">
+            <div class="col-lg-4 reveal-text">
+                <svg version="1.1" id="Icons" xmlns="http://www.w3.org/2000/svg"
+                    xmlns:xlink="http://www.w3.org/1999/xlink" fill="#0c436b" viewBox="0 0 32 32" xml:space="preserve"
+                    width="50px" height="50px">
+                    <path d="M29.9,17.5C29.7,17.2,29.4,17,29,17c-2.2,0-4.3,1-5.6,2.8L22.5,21c-1.1,1.3-2.8,2-4.5,2h-3c-0.6,0-1-0.4-1-1s0.4-1,1-1h1.9
+	c1.6,0,3.1-1.3,3.1-2.9c0,0,0-0.1,0-0.1c0-0.5-0.5-1-1-1l-6.1,0c-3.6,0-6.5,1.6-8.1,4.2l-2.7,4.2c-0.2,0.3-0.2,0.7,0,1l3,5
+	c0.1,0.2,0.4,0.4,0.6,0.5c0.1,0,0.1,0,0.2,0c0.2,0,0.4-0.1,0.6-0.2c3.8-2.5,8.2-3.8,12.7-3.8c3.3,0,6.3-1.8,7.9-4.7l2.7-4.8
+	C30,18.2,30,17.8,29.9,17.5z" />
+                    <path d="M12.9,15C12.9,15,12.9,15,12.9,15l6.1,0c1.6,0,3,1.3,3,2.9l0,0.2c0,0,0,0,0,0l6.2-6.4c2.4-2.5,2.4-6.4,0-8.9
+	C27,1.7,25.5,1,23.9,1c-1.6,0-3.2,0.7-4.4,1.9L19,3.4l-0.5-0.5C17.3,1.7,15.8,1,14.1,1C12.5,1,11,1.7,9.8,2.9
+	c-2.4,2.5-2.4,6.4,0,8.9L12.9,15z M14,9h1.6l1.7-1.7C17.5,7.1,17.8,7,18.2,7c0.3,0.1,0.6,0.3,0.7,0.5l1,2l1.2-2.9
+	C21.2,6.3,21.5,6,21.9,6c0.4,0,0.7,0.1,0.9,0.4l2,3c0.3,0.5,0.2,1.1-0.3,1.4c-0.5,0.3-1.1,0.2-1.4-0.3l-0.9-1.4l-1.3,3.2
+	C20.8,12.7,20.4,13,20,13c0,0,0,0,0,0c-0.4,0-0.7-0.2-0.9-0.6l-1.4-2.8l-1,1C16.5,10.9,16.3,11,16,11h-2c-0.6,0-1-0.4-1-1
+	S13.4,9,14,9z" />
+                </svg>
+                <h3>Patient-Centered approach</h3>
+                <p>We tailor treatments to fit your unique <br> health need and goals </p>
+            </div>
+
+            <div class="col-lg-4 reveal-text">
+                <svg fill="#0c436b" width="50px" height="50px" viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg">
+                    <path fill-rule="evenodd" clip-rule="evenodd"
+                        d="M14.8 4H19C20.1 4 21 4.9 21 6V20C21 21.1 20.1 22 19 22H5C3.9 22 3 21.1 3 20V6C3 4.9 3.9 4 5 4H9.2C9.6 2.8 10.7 2 12 2C13.3 2 14.4 2.8 14.8 4ZM13 5C13 4.5 12.5 4 12 4C11.5 4 11 4.5 11 5C11 5.5 11.5 6 12 6C12.5 6 13 5.5 13 5ZM11.6648 15.0447L8.38178 8.08094L6.25697 13.0004H5V14.5004H7.24303L8.44159 11.7254L11.4602 18.1285L14.1716 13.9261L15.8527 16.6653L17.6075 14.5004H19V13.0004H16.8925L16.0223 14.0739L14.2034 11.1101L11.6648 15.0447Z" />
+                </svg>
+                <h3>Advanced dignostic tools</h3>
+                <p>State-of-the-art technology ensure <br> precise and early detection </p>
+            </div>
+
+            <div class="col-lg-4 reveal-text">
+                <svg width="50px" height="50px" viewBox="0 0 64 64" id="filled" xmlns="http://www.w3.org/2000/svg">
+                    <defs>
+                        <style>
+                            .cls-1 {
+                                fill: #81dee3;
+                            }
+
+                            .cls-1,
+                            .cls-2 {
+                                stroke: #000000;
+                                stroke-linecap: round;
+                                stroke-linejoin: round;
+                                stroke-width: 2px;
+                            }
+
+                            .cls-2 {
+                                fill: #004fe3;
+                            }
+                        </style>
+                    </defs>
+                    <title />
+                    <path class="cls-1"
+                        d="M42.5347,54.2538,32,60,21.4653,54.2538A22,22,0,0,1,10,34.94V14A10,10,0,0,0,20,4H44A10,10,0,0,0,54,14V34.94A22,22,0,0,1,42.5347,54.2538Z" />
+                    <polygon class="cls-2"
+                        points="42 27.5 34.5 27.5 34.5 20 29.5 20 29.5 27.5 22 27.5 22 32.5 29.5 32.5 29.5 40 34.5 40 34.5 32.5 42 32.5 42 27.5" />
+                </svg>
+                <h3>Safty & Hygiene standards</h3>
+                <p>Strict protocols to ensure your health and <br> safety are always protected.</p>
+            </div>
+        </div>
+
+        <div class="need-cerf container align-self-center row p-4">
+            <div class="text-start fw-bold col-md-6">
+                <h2>Certified care you can rely on</h2>
+                <a class="btn btn-info " type="button" href="bookappoiment.html">Book
+                    an Appoiment
+                    <svg width="30px" height="20px" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg">
+                        <path
+                            d="M3.33789 7C5.06694 4.01099 8.29866 2 12.0001 2C17.5229 2 22.0001 6.47715 22.0001 12C22.0001 17.5228 17.5229 22 12.0001 22C8.29866 22 5.06694 19.989 3.33789 17M12 16L16 12M16 12L12 8M16 12H2"
+                            stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" />
+                    </svg>
+                </a>
+            </div>
+            <div class="cerf-logo col-md-6 align-self-end">
+                <img src="./assets/iso.png" alt="ISO">
+                <img class="cerf-img" src="./assets/hygiene.jpg" alt="Hygiene">
+            </div>
+        </div>
+    </section>
+
+
+    <section class="section-doc txcol">
+        <div class="div-line mt-5"></div>
+        <div class="doc-head  ">
+            <span class="reveal-text">
+                <svg width="20px" height="20px" fill="#0c436b" viewBox="0 0 15 15" version="1.1" id="heart"
+                    xmlns="http://www.w3.org/2000/svg">
+                    <path
+                        d="M13.91,6.75c-1.17,2.25-4.3,5.31-6.07,6.94c-0.1903,0.1718-0.4797,0.1718-0.67,0C5.39,12.06,2.26,9,1.09,6.75&#xA;&#x9;C-1.48,1.8,5-1.5,7.5,3.45C10-1.5,16.48,1.8,13.91,6.75z" />
+                </svg>
+                HERE WHEN YOU NEED US
+            </span>
+            <h2 class="reveal-text fw-bold">Caring professionals,advanced solutions</h2>
+            <p class="reveal-text">Each doctor bring year of experience, specialixed knowledge,and a<br>compassionate
+                approach to help you
+                achive optimal health.</p>
+        </div>
+        <div class="doc-card">
+            <div class="card reveal-text">
+                <span>
+                    <p>Dr.Michael hayes</p>
+                    <p>Pediatrician</p>
+                </span>
+                <img src="./assets/doctor1.jpg" alt="Dr.">
+            </div>
+            <div class="card reveal-text">
+                <span>
+                    <p>Dr.Olivia reynolds</p>
+                    <p>Dermatologist</p>
+                </span>
+                <img src="./assets/doctor2.jpg" alt="Dr.">
+            </div>
+            <div class="card reveal-text">
+                <span>
+                    <p>Dr.Ava kim</p>
+                    <p>Health Specialist</p>
+                </span>
+                <img src="./assets/doctor3.avif" alt="Dr.">
+            </div>
+            <div class="card reveal-text">
+                <span>
+                    <p>Dr.David lin </p>
+                    <p>Surgeon</p>
+                </span>
+                <img src="./assets/doctor4.jpg" alt="Dr.">
+            </div>
+        </div>
+        <div class="d-flex align-items-center fw-bold mb-5 mx-2">
+            <span class="mx-3">Join our family of health patients</span>
+            <a class="btn btn-info" href="doctor.html">View all doctors
+                <svg width="30px" height="20px" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg">
+                    <path
+                        d="M3.33789 7C5.06694 4.01099 8.29866 2 12.0001 2C17.5229 2 22.0001 6.47715 22.0001 12C22.0001 17.5228 17.5229 22 12.0001 22C8.29866 22 5.06694 19.989 3.33789 17M12 16L16 12M16 12L12 8M16 12H2"
+                        stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" />
+                </svg>
+            </a>
+        </div>
+        <div class="div-line mt-2"></div>
+    </section>
+
+    
+    <section class="priority txcol p-4">
+        <div class="doc-head">
+            <span class="reveal-text">
+             SUPER SPECIALITIES
+            </span>
+            <h2 class="reveal-text fw-bold">Priority departments for faster decisions</h2>
+            <p class="reveal-text">Hospital's source content includes super specialities led by expert teams and equipped with
+                state-of-the-art equipment.</p>
+        </div>
+
+        <div class="container">
+            <div class="row">
+                <div class="col-md-6 col-lg-3">
+                    <div class="about-card border rounded-4 text-center p-2  cheigth mb-2">
+                        <img src="./assets/icon-cardiac.svg" alt="" srcset="">
+                        <h5>Cardiac Sciences & CCU</h5>
+                        <h6 style="color: gray;">Cardiac Centre is the second largest Cardiac Centre in India.</h6>
+                        <a href="#" class="btn btn-primary p-1 m-0">Know More</a>
+                    </div>
+                </div>
+                <div class="col-md-6 col-lg-3">
+                    <div class="about-card border rounded-4 text-center p-2  cheigth mb-2">
+                        <img src="./assets/icon-cancer.svg" alt="" srcset="">
+                        <h5>Cancer Services</h5>
+                        <h6 style="color: gray;">Pioneering oncology care with cutting-edge diagnostics and personalised treatment plans.</h6>
+                        <a href="#" class="btn btn-primary p-1 m-0">Know More</a>
+                    </div>
+                </div>
+                <div class="col-md-6 col-lg-3">
+                    <div class="about-card border rounded-4 text-center p-2  cheigth mb-2">
+                        <img src="./assets/icon-bariatric.svg" alt="" srcset="">
+                        <h5>Bariatric & Metabolic Surgery</h5>
+                        <h6 style="color: gray;">Achieve healthy weight loss goals with surgery and sustained lifestyle changes.</h6>
+                        <a href="#" class="btn btn-primary p-1 m-0">Know More</a>
+                    </div>
+                </div>
+                <div class="col-md-6 col-lg-3">
+                    <div class="about-card border rounded-4 text-center p-2  cheigth mb-2">
+                        <img src="./assets/icon-neuro.svg" alt="" srcset="">
+                        <h5>Neuro Sciences</h5>
+                        <h6 style="color: gray;">Neurology deals with nervous system related issues affecting the brain, spinal cord, nerves and muscles.</h6>
+                        <a href="#" class="btn btn-primary p-1 m-0">Know More</a>
+                    </div>
+                </div>
+                <div class="col-md-6 col-lg-3">
+                    <div class="about-card border rounded-4 text-center p-2  cheigth mb-2">
+                        <img src="./assets/icon-ortho.svg" alt="" srcset="">
+                        <h5>Orthopaedics & Joint Replacement</h5>
+                        <h6 style="color: gray;">Advanced surgical and medical technologies designed to improve patient quality of life.</h6>
+                        <a href="#" class="btn btn-primary p-1 m-0">Know More</a>
+                    </div>
+                </div>
+                <div class="col-md-6 col-lg-3">
+                    <div class="about-card border rounded-4 text-center p-2  cheigth mb-2">
+                        <img src="./assets/breast-surgery.svg" alt="" srcset="">
+                        <h5>Breast Surgery</h5>
+                        <h6 style="color: gray;">Breast health care with consultation, diagnostics, treatment planning and personalised care.</h6>
+                        <a href="#" class="btn btn-primary p-1 m-0">Know More</a>
+                    </div>
+                </div>
+                <div class="col-md-6 col-lg-3">
+                    <div class="about-card border rounded-4 text-center p-2  cheigth mb-2">
+                        <img src="./assets/gi-cancer.svg" width="70px" alt="" srcset="">
+                        <h5>Centre for Digestive Disease</h5>
+                        <h6 style="color: gray;">Aesthetic or cosmetic surgery and reconstructive surgery services.</h6>
+                        <a href="#" class="btn btn-primary p-1 m-0">Know More</a>
+                    </div>
+                </div>
+                <div class="col-md-6 col-lg-3">
+                    <div class="about-card border rounded-4 text-center p-2  cheigth mb-2">
+                        <img src="./assets/cosmetic-surgery.svg"  width="70px" alt="" srcset="">
+                        <h5>Neuro Sciences</h5>
+                        <h6 style="color: gray;">Neurology deals with nervous system related issues affecting the brain, spinal cord, nerves and muscles.</h6>
+                        <a href="#" class="btn btn-primary p-1 m-0">Know More</a>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <footer>
+        <div class="ticker-container">
+            <div class="ticker-track">
+                <span class="ticker-item">Compassionate patient support <span class="separator">&#9679;</span></span>
+                <span class="ticker-item">Specilized doctor <span class="separator">&#9679;</span></span>
+                <span class="ticker-item">Cardiology Care <span class="separator">&#9679;</span></span>
+                <span class="ticker-item">Emergency Services <span class="separator">&#9679;</span></span>
+                <span class="ticker-item">Request Appoiment <span class="separator">&#9679;</span></span>
+                <span class="ticker-item">Facilities <span class="separator">&#9679;</span></span>
+                <span class="ticker-item">Supportive management</span>
+            </div>
+        </div>
+
+
+        <div class="text-center mt-5 mb-4 txcol">
+            <h2 class="fw-bold reveal-text">Stay connected , Stay healthy</h2>
+            <p class="reveal-text lead">Our team is always ready to support you with expert <br> care and campassion</p>
+        </div>
+        <div class="cont container mb-1" id="contact">
+            <form action="information" class="p-2 align-items-center reveal-text">
+                <div class="d-flex mb-3">
+                    <input class="fcol form-control mx-1 p-2" type="text" placeholder="FullName"><br>
+                </div>
+                <div class="d-flex mb-3">
+                    <input class="fcol form-control mx-1 p-2" type="email" name="" id="" placeholder="Email address">
+                    <input class="fcol form-control mx-1 p-2" type="number" name="" id="" placeholder="Phone Number">
+                </div>
+                <div class="d-flex mb-3">
+                    <select class="fcol form-select mx-1 p-2" name="" id="" aria-placeholder="Select Services">
+                        <option value="Service One"> --Select Service-- </option>
+                        <option value="Service One"> Service One </option>
+                        <option value="Service Two"> Service Two </option>
+                        <option value="Service Three"> Service Three </option>
+                    </select>
+                    <input class="fcol form-control  mx-1 p-2" type="date" name="" id="" placeholder="Prefered Date">
+                </div>
+                <div class="d-flex mb-3">
+                    <textarea class="fcol form-control mx-1 p-2" name="" id="" placeholder="Additional Note"></textarea>
+                </div>
+                <div class="d-flex mb-3">
+                    <button class="btn btn-outline-info text-center w-100" type="button">Submit</button>
+                </div>
+
+
+            </form>
+        </div>
+
+        <div class="container  p-5 mb-0">
+
+            <div class="row foot-sum p-2">
+                <div class="col-md-3 text-center">
+                    <img src="./assets/logo.png" height="100px" alt="Logo"><br>
+                    <h2 class="fw-bold fs-2 ">HospCare</h2>
+                </div>
+                <div class="col-md-3">
+                    <h2 class="fw-bold">Pages Link</h2>
+                    <ul class="navbar-nav">
+                        <li class="nav-item"><a class="nav-link" href="index.html">Home</a></li>
+                        <li class="nav-item"><a class="nav-link" href="abouut.html">About Us</a></li>
+                        <li class="nav-item"><a class="nav-link" href="contactus.html">Contact Us</a></li>
+                    </ul>
+                </div>
+                <div class="col-md-3">
+                    <h2 class="fw-bold">Utility Page</h2>
+                    <ul class="navbar-nav">
+                        <li class="nav-item"><a class="nav-link" href="">Style Guid</a></li>
+                        <li class="nav-item"><a class="nav-link" href="">Instructions</a></li>
+                        <li class="nav-item"><a class="nav-link" href="">License</a></li>
+                        <li class="nav-item"><a class="nav-link" href="">Changelog</a></li>
+                        <li class="nav-item"><a class="nav-link" href="">Blog</a></li>
+                    </ul>
+                </div>
+                <div class="col-md-3">
+                    <h2 class="fw-bold">Contact</h2>
+                    <ul class="navbar-nav">
+                        <li class="nav-item">+91 4712983727</li>
+                        <li class="nav-item">hospital@gmail.com</li>
+                        <li class="nav-item">123 health street,Wellness City,USA </li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+
+        <div class="social mx-5">
+            <span>
+                <svg fill="#000000" width="20px" height="20px" viewBox="0 0 24 24" id="facebook" data-name="Flat Color"
+                    xmlns="http://www.w3.org/2000/svg" class="icon flat-color">
+                    <path id="primary"
+                        d="M14,6h3a1,1,0,0,0,1-1V3a1,1,0,0,0-1-1H14A5,5,0,0,0,9,7v3H7a1,1,0,0,0-1,1v2a1,1,0,0,0,1,1H9v7a1,1,0,0,0,1,1h2a1,1,0,0,0,1-1V14h2.22a1,1,0,0,0,1-.76l.5-2a1,1,0,0,0-1-1.24H13V7A1,1,0,0,1,14,6Z"
+                        style="fill: rgb(0, 0, 0);"></path>
+                </svg>
+            </span>
+            <span>
+                <svg fill="#000000" height="20px" width="20px" version="1.1" id="Icons"
+                    xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" viewBox="0 0 32 32"
+                    xml:space="preserve">
+                    <path d="M23,0H9C4,0,0,4,0,9v6v8c0,5,4,9,9,9h14c5,0,9-4,9-9v-8V9C32,4,28,0,23,0z M16,10c3.3,0,6,2.7,6,6s-2.7,6-6,6s-6-2.7-6-6
+	S12.7,10,16,10z M22,7c0-1.1,0.9-2,2-2s2,0.9,2,2s-0.9,2-2,2S22,8.1,22,7z" />
+                </svg>
+            </span>
+            <span>
+                <svg fill="#000000" height="20px" width="20px" version="1.1" id="Icons"
+                    xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" viewBox="0 0 32 32"
+                    xml:space="preserve">
+                    <path d="M23,0H9C4,0,0,4,0,9v14c0,5,4,9,9,9h14c5,0,9-4,9-9V9C32,4,28,0,23,0z M12,25c0,0.6-0.4,1-1,1H7c-0.6,0-1-0.4-1-1V13
+	c0-0.6,0.4-1,1-1h4c0.6,0,1,0.4,1,1V25z M9,11c-1.7,0-3-1.3-3-3s1.3-3,3-3s3,1.3,3,3S10.7,11,9,11z M26,25c0,0.6-0.4,1-1,1h-3
+	c-0.6,0-1-0.4-1-1v-3.5v-1v-2c0-0.8-0.7-1.5-1.5-1.5S18,17.7,18,18.5v2v1V25c0,0.6-0.4,1-1,1h-3c-0.6,0-1-0.4-1-1V13
+	c0-0.6,0.4-1,1-1h4c0.3,0,0.5,0.1,0.7,0.3c0.6-0.2,1.2-0.3,1.8-0.3c3,0,5.5,2.5,5.5,5.5V25z" />
+                </svg>
+            </span>
+        </div>
+
+        <div class="container text-center py-2">
+            <hr>
+            <p class="mb-0">© 2026 Hospital App | Designed For Your Servicce</p>
+
+        </div>
+    </footer>
+
+</body>
+
+</html>
