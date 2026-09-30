@@ -58,8 +58,7 @@
         <div class="container row hero-slog">
             <div class="col-md-6 text-start fw-bold p-3 txcol">
                 <h1 class="fw-bold">Get Better Care For <br>Your Health</h1>
-                <p class="lead">Lorem ipsum dolor sit amet consectetur adipisicing elit. Placeat repellendus eveniet hic
-                    cum ullam cupiditate. Lorem ipsum dolor sit amet, consectetur adipisicing elit. Esse, provident.</p>
+                <p class="lead">Welcome to HospCare. A pioneer in healthcare, committed to those who seek care. What started as a four-bedded nursing home in 1959 is now Pune's first nationally accredited multi-speciality centre.</p>
                 <a type="button" class="btn btn-info" href="#need">Explore<svg width="30px" height="20px"
                         viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg">
                         <path
@@ -418,28 +417,28 @@
             <p class="reveal-text lead">Our team is always ready to support you with expert <br> care and campassion</p>
         </div>
         <div class="cont container mb-1" id="contact">
-            <form action="information" class="p-2 align-items-center reveal-text">
+            <form id="form" class="p-2 align-items-center reveal-text">
                 <div class="d-flex mb-3">
-                    <input class="fcol form-control mx-1 p-2" type="text" placeholder="FullName"><br>
+                    <input class="fcol form-control mx-1 p-2" type="text" id="username" placeholder="FullName"><br>
                 </div>
                 <div class="d-flex mb-3">
-                    <input class="fcol form-control mx-1 p-2" type="email" name="" id="" placeholder="Email address">
-                    <input class="fcol form-control mx-1 p-2" type="number" name="" id="" placeholder="Phone Number">
+                    <input class="fcol form-control mx-1 p-2" type="email" name="" id="email" placeholder="Email address">
+                    <input class="fcol form-control mx-1 p-2" type="number" name="" id="phone" placeholder="Phone Number">
                 </div>
                 <div class="d-flex mb-3">
-                    <select class="fcol form-select mx-1 p-2" name="" id="" aria-placeholder="Select Services">
+                    <select class="fcol form-select mx-1 p-2" name="" id="services" aria-placeholder="Select Services">
                         <option value="Service One"> --Select Service-- </option>
                         <option value="Service One"> Service One </option>
                         <option value="Service Two"> Service Two </option>
                         <option value="Service Three"> Service Three </option>
                     </select>
-                    <input class="fcol form-control  mx-1 p-2" type="date" name="" id="" placeholder="Prefered Date">
+                    <input class="fcol form-control  mx-1 p-2" type="date" name="" id="date" placeholder="Prefered Date">
                 </div>
                 <div class="d-flex mb-3">
-                    <textarea class="fcol form-control mx-1 p-2" name="" id="" placeholder="Additional Note"></textarea>
+                    <textarea class="fcol form-control mx-1 p-2" name="" id="note" placeholder="Additional Note"></textarea>
                 </div>
                 <div class="d-flex mb-3">
-                    <button class="btn btn-outline-info text-center w-100" type="button">Submit</button>
+                    <button class="btn btn-outline-info text-center w-100" type="submit">Submit</button>
                 </div>
 
 
@@ -519,5 +518,5 @@
     </footer>
 
 </body>
-
+<script src="./javascript/script.js"></script>
 </html>

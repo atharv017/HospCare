@@ -60,60 +60,60 @@
             </h1>
         </div>
         <div class="container p-4 about-card border shadow rounded mt-5">
-            <form action="">
+            <form id="booking">
                 <h1 class="fw-bold mb-5 txcol">Book an Appoiment</h1>
                 
                     <div class="row mb-3 ms-auto">
                         <div class=" col-md-6 col-lg-3 p-2">
-                            <input type="name" placeholder="Name*" class="form-control p-2">
+                            <input type="name" placeholder="Name*" id="name" class="form-control p-2">
                         </div>
                         
                         <div class=" col-md-6 col-lg-3 p-2">
-                            <input type="email" placeholder="Email" class="form-control p-2">
+                            <input type="email" placeholder="Email" id="bemail" class="form-control p-2">
                         </div>
                         <div class=" col-md-6 col-lg-3 p-2">
-                            <input type="number" placeholder="Contact*" class="form-control p-2">
+                            <input type="number" placeholder="Contact*" id="number" class="form-control p-2">
                         </div>
                         <div class=" col-md-6 col-lg-3 p-2">
-                            <input type="date" class="form-control p-2">
+                            <input type="date" class="form-control p-2" id="date">
                         </div>          
                     </div>
                     <div class="row mb-3 ms-auto">
                         <div class="col-md-6 col-lg-3 p-2">
-                            <input type="time"  class="form-control p-2">
+                            <input type="time"  class="form-control p-2" id="time">
                         </div>
                         
                         <div class=" col-md-6 col-lg-3 p-2">
-                            <select name="" id="" class="form-select p-2">
+                            <select  id="place" class="form-select p-2">
                                 <option value="">Location</option>
-                                <option value="">Pune</option>
-                                <option value="">Mumbai</option>
-                                <option value="">Satara</option>
-                                <option value="">Other</option>
+                                <option value="Pune">Pune</option>
+                                <option value="Mumbai">Mumbai</option>
+                                <option value="Satara">Satara</option>
+                                <option value="Other">Other</option>
                             </select>
                         </div>
                         <div class=" col-md-6 col-lg-3 p-2">
-                            <select name="" id="" class="form-select p-2">
+                            <select id="services" class="form-select p-2">
                                 <option value="">Service</option>
-                                <option value="">Service1</option>
-                                <option value="">Service2</option>
-                                <option value="">Service3</option>
-                                <option value="">Other</option>
+                                <option value="Service1">Service1</option>
+                                <option value="Service2">Service2</option>
+                                <option value="Service3">Service3</option>
+                                <option value="Other">Other</option>
                             </select>
                         </div>
                         <div class=" col-md-6 col-lg-3 p-2">
-                            <select name="" id="" class="form-select p-2">
+                            <select id="doctor" class="form-select p-2">
                                 <option value="">Doctor</option>
-                                <option value="">Dr.Michael hayes</option>
-                                <option value="">Dr.Olivia reynolds</option>
-                                <option value="">Dr.Ava kim</option>
-                                <option value="">Dr.David lin </option>
-                                <option value="">Other</option>
+                                <option value="Dr.Michael hayes">Dr.Michael hayes</option>
+                                <option value="Dr.Olivia reynolds">Dr.Olivia reynolds</option>
+                                <option value="Dr.Ava kim">Dr.Ava kim</option>
+                                <option value="Dr.David lin">Dr.David lin </option>
+                                <option value="Other">Other</option>
                             </select>
                         </div> 
                         <p>*This sends an appointment request, not a confirmed booking. Our team will call you to confirm your doctor, date and time — usually within 24–48 hours.</p>
                         <div class=" col-md-6 col-lg-3 p-2">
-                            <a href="index.html" class="btn btn-danger p-3 m-2">Request Appoiment</a>
+                            <button type="submit" class="btn btn-danger p-3 m-2">Request Appoiment</button>
                             <a href="bookappoiment.html" class="btn btn-secondary p-3 m-2">Clear</a>
                         </div> 
 
@@ -210,5 +210,5 @@
         </div>
     </footer>
 </body>
-
+<script src="./javascript/booking.js"></script>
 </html>
